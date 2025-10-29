@@ -1,0 +1,13 @@
+aws:
+  region: us-east-1
+  table_name: HealthCareCases
+  s3_bucket: demohealthcarecasemanagement
+
+app:
+  page_title: "Healthcare Case Manager"
+  page_icon: "🏥"
+  layout: "wide"
+
+ui:
+  refresh_interval: 30  # seconds
+  max_cases_display: 1000
