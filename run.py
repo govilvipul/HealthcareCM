@@ -17,7 +17,7 @@ def main():
     """Main entry point"""
     try:
         # Load environment variables from .env file
-        load_dotenv()  # Add this line
+        load_dotenv('env.example')  # Add this line
         
         # Check if required environment variables are set
         required_vars = ['AWS_ACCESS_KEY_ID', 'AWS_SECRET_ACCESS_KEY']
@@ -46,4 +46,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
